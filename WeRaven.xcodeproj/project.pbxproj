@@ -13,7 +13,6 @@
 		1013B45929B8D140003EF55A /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013B45829B8D140003EF55A /* VerifyView.swift */; };
 		1013B45B29B8D335003EF55A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013B45A29B8D335003EF55A /* LoginViewModel.swift */; };
 		1013B45D29B8D35E003EF55A /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013B45C29B8D35E003EF55A /* AlertViewModel.swift */; };
-		1013B45F29B8D3A8003EF55A /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1013B45E29B8D3A8003EF55A /* TextInput.swift */; };
 		10A141E729B81BE600334871 /* WeRavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A141E629B81BE600334871 /* WeRavenApp.swift */; };
 		10A141E929B81BE600334871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A141E829B81BE600334871 /* ContentView.swift */; };
 		10A141EB29B81BE900334871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A141EA29B81BE900334871 /* Assets.xcassets */; };
@@ -21,6 +20,11 @@
 		10A141F829B81BE900334871 /* WeRavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A141F729B81BE900334871 /* WeRavenTests.swift */; };
 		10A1420229B81BE900334871 /* WeRavenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1420129B81BE900334871 /* WeRavenUITests.swift */; };
 		10A1420429B81BE900334871 /* WeRavenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A1420329B81BE900334871 /* WeRavenUITestsLaunchTests.swift */; };
+		10B27E1829BA9ED6009D0E1C /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B27E1729BA9ED6009D0E1C /* TextInput.swift */; };
+		10B27E1A29BAA1D7009D0E1C /* SecureInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B27E1929BAA1D7009D0E1C /* SecureInput.swift */; };
+		10B27E1C29BAA3DE009D0E1C /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B27E1B29BAA3DE009D0E1C /* RegisterViewModel.swift */; };
+		10B27E1F29BAA7F8009D0E1C /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B27E1E29BAA7F8009D0E1C /* Network.swift */; };
+		10B27E2229BAA85F009D0E1C /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B27E2129BAA85F009D0E1C /* RegisterModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,6 @@
 		1013B45829B8D140003EF55A /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
 		1013B45A29B8D335003EF55A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1013B45C29B8D35E003EF55A /* AlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
-		1013B45E29B8D3A8003EF55A /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
 		10A141E329B81BE600334871 /* WeRaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeRaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A141E629B81BE600334871 /* WeRavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeRavenApp.swift; sourceTree = "<group>"; };
 		10A141E829B81BE600334871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +62,11 @@
 		10A141FD29B81BE900334871 /* WeRavenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeRavenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A1420129B81BE900334871 /* WeRavenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeRavenUITests.swift; sourceTree = "<group>"; };
 		10A1420329B81BE900334871 /* WeRavenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeRavenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10B27E1729BA9ED6009D0E1C /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		10B27E1929BAA1D7009D0E1C /* SecureInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInput.swift; sourceTree = "<group>"; };
+		10B27E1B29BAA3DE009D0E1C /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		10B27E1E29BAA7F8009D0E1C /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		10B27E2129BAA85F009D0E1C /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		1013B44F29B8D0F5003EF55A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				10B27E2129BAA85F009D0E1C /* RegisterModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +119,7 @@
 			children = (
 				1013B45A29B8D335003EF55A /* LoginViewModel.swift */,
 				1013B45C29B8D35E003EF55A /* AlertViewModel.swift */,
+				10B27E1B29BAA3DE009D0E1C /* RegisterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -117,7 +127,8 @@
 		1013B45129B8D110003EF55A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1013B45E29B8D3A8003EF55A /* TextInput.swift */,
+				10B27E1729BA9ED6009D0E1C /* TextInput.swift */,
+				10B27E1929BAA1D7009D0E1C /* SecureInput.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		10A141E529B81BE600334871 /* WeRaven */ = {
 			isa = PBXGroup;
 			children = (
+				10B27E1D29BAA7EE009D0E1C /* Tools */,
 				1013B45129B8D110003EF55A /* Views */,
 				1013B45029B8D0FE003EF55A /* ViewModels */,
 				1013B44F29B8D0F5003EF55A /* Models */,
@@ -180,6 +192,14 @@
 				10A1420329B81BE900334871 /* WeRavenUITestsLaunchTests.swift */,
 			);
 			path = WeRavenUITests;
+			sourceTree = "<group>";
+		};
+		10B27E1D29BAA7EE009D0E1C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				10B27E1E29BAA7F8009D0E1C /* Network.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,13 +334,17 @@
 			files = (
 				10A141E929B81BE600334871 /* ContentView.swift in Sources */,
 				1013B45729B8D136003EF55A /* RegisterView.swift in Sources */,
+				10B27E1F29BAA7F8009D0E1C /* Network.swift in Sources */,
+				10B27E2229BAA85F009D0E1C /* RegisterModel.swift in Sources */,
 				1013B45329B8D11B003EF55A /* MainView.swift in Sources */,
 				1013B45D29B8D35E003EF55A /* AlertViewModel.swift in Sources */,
+				10B27E1C29BAA3DE009D0E1C /* RegisterViewModel.swift in Sources */,
 				1013B45929B8D140003EF55A /* VerifyView.swift in Sources */,
-				1013B45F29B8D3A8003EF55A /* TextInput.swift in Sources */,
+				10B27E1829BA9ED6009D0E1C /* TextInput.swift in Sources */,
 				1013B45529B8D128003EF55A /* LoginView.swift in Sources */,
 				10A141E729B81BE600334871 /* WeRavenApp.swift in Sources */,
 				1013B45B29B8D335003EF55A /* LoginViewModel.swift in Sources */,
+				10B27E1A29BAA1D7009D0E1C /* SecureInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

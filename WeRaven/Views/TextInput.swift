@@ -2,38 +2,37 @@
 //  TextInput.swift
 //  WeRaven
 //
-//  Created by Daniel Lopes on 08/03/23.
+//  Created by Daniel Lopes on 09/03/23.
 //
 
 import SwiftUI
 
+enum InputType {
+    case email, name
+}
+
 struct TextInput: View {
-    @State var isShowingPassword = false
-    @Binding var text: String
     
-    var placeholder: String
-    var isPassword: Bool = false
-    var isValid: Bool = true
-    var inputType: String = "text"
+    @Binding var text: String
+    let placeholder: String
+    var type: InputType = .name
     
     var body: some View {
         ZStack(alignment: .leading) {
             if text.isEmpty {
-               Text(placeholder)
-                   .foregroundColor(.gray)
+                Text(placeholder)
+                    .foregroundColor(.gray)
             }
-            if isPassword && !isShowingPassword {
-                SecureField("", text: $text)
-                    .frame(height: 40)
-                    .autocapitalization(.none)
-                    .autocorrectionDisabled(true)
-            } else {
-                TextField("", text: $text)
-                    .frame(height: 40)
-                    .autocapitalization(.none)
-                    .autocorrectionDisabled(true)
-            }
+            TextField("", text: $text)
+                .frame(height: 45)
+                .foregroundColor(Color("Background"))
+                .autocapitalization(type == .email ? .none : .words)
+                .autocorrectionDisabled(true)
+                .keyboardType(type == .email ? .emailAddress : .default)
         }
+        .padding(.horizontal, 10)
+        .background(Color("Text"))
+        .cornerRadius(5)
     }
 }
 
@@ -42,6 +41,6 @@ struct TextInput_Previews: PreviewProvider {
     @State static var text: String = ""
     
     static var previews: some View {
-        TextInput(text: $text, placeholder: "E-mail")
+        TextInput(text: $text, placeholder: "E-mail", type: .email)
     }
 }
